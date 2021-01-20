@@ -20,7 +20,47 @@ permalink: /midterm/quiz31
 <p> <a href="https://github.com/jesmatienzo-tip/sysad2-12021/tree/quiz31"> Quiz 3.1 - Managed Information Systems Services </a> </p>
 
 ```
-
+README.md
+ansible.cfg
+ftp_playbook_roles.yaml
+inventory
+roles/
+	vsftpd_centos_config/
+			defualts/
+				main.yml
+			files/
+			handlers/
+				main.yml
+			meta/
+				main.yml
+			tasks/
+				main.yml
+			templates/
+			tests/
+				inventory
+				test.yml
+			vars/
+				main.yml
+			README.md
+	vsftpd_centos_config/
+			defaults/
+				main.yml
+			files/
+			handlers/
+				main.yml
+			meta/
+				main.yml
+			tasks/
+				main.yml
+			templates/
+			tests/
+				inventory
+				test.yml
+			vars/
+				main.yml
+			README.md
+vsftpd.conf
+vsftpd_centos.conf
 ```
 
 

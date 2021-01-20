@@ -20,7 +20,49 @@ permalink: /midterm/quiz32
 <p> <a href="https://github.com/jesmatienzo-tip/sysad2-12021/tree/quiz32"> Quiz 3.2 - Common Workload Services </a> </p>
 
 ```
-
+README.md
+ansible.cfg
+files/
+	index.html
+	matienzo_domain.conf
+	matienzo_domain_centos.conf
+inventory
+playbook_quiz32_roles.yaml
+roles/
+	centos_configure/
+			defualts/
+				main.yml
+			files/
+			handlers/
+				main.yml
+			meta/
+				main.yml
+			tasks/
+				main.yml
+			templates/
+			tests/
+				inventory
+				test.yml
+			vars/
+				main.yml
+			README.md
+	ubuntu_configure/
+			defaults/
+				main.yml
+			files/
+			handlers/
+				main.yml
+			meta/
+				main.yml
+			tasks/
+				main.yml
+			templates/
+			tests/
+				inventory
+				test.yml
+			vars/
+				main.yml
+			README.md
 ```
 
 

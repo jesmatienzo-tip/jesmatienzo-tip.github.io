@@ -20,7 +20,45 @@ permalink: /midterm/quiz41
 <p> <a href="https://github.com/jesmatienzo-tip/sysad2-12021/tree/quiz41"> Quiz 4.1 - Availability Monitor </a> </p>
 
 ```
-
+README.md
+ansible.cfg
+inventory
+playbook_availability.yaml
+roles/
+	install_nagios_centos/
+			defualts/
+				main.yml
+			files/
+			handlers/
+				main.yml
+			meta/
+				main.yml
+			tasks/
+				main.yml
+			templates/
+			tests/
+				inventory
+				test.yml
+			vars/
+				main.yml
+			README.md
+	install_nagios_ubuntu/
+			defaults/
+				main.yml
+			files/
+			handlers/
+				main.yml
+			meta/
+				main.yml
+			tasks/
+				main.yml
+			templates/
+			tests/
+				inventory
+				test.yml
+			vars/
+				main.yml
+			README.md
 ```
 
 

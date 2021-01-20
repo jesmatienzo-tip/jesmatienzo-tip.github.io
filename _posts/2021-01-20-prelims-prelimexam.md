@@ -45,7 +45,82 @@ Role 4 (Create User)
 <p> <a href="https://github.com/jesmatienzo-tip/sysad2-12021/tree/prelim-exam"> Prelim Exam </a> </p>
 
 ```
-
+.gitignore
+README.md
+ansible.cfg
+config.yaml
+id_rsa
+inventory
+playbook_prelim.yaml
+roles/
+	1python/
+		defaults/
+			main.yml
+		files/
+		handlers/
+			main.yml
+		meta/
+			main.yml
+		tasks/
+			main.yml
+		templates/
+		tests/
+			inventory
+			test.yml
+		vars/
+			main.yml
+		README.md
+	2java/
+		defaults/
+			main.yml
+		files/
+		handlers/
+			main.yml
+		meta/
+			main.yml
+		tasks/
+			main.yml
+		templates/
+		tests/
+			inventory
+			test.yml
+		vars/
+			main.yml
+		READNE.md
+	3motd/
+		defaults/
+			main.yml
+		files/
+		handlers/
+			main.yml
+		meta/
+			main.yml
+		tasks/
+			main.yml
+		templates/
+		tests/
+			inventory
+			test.yml
+		vars/
+			main.yml
+		README.md
+	4create_user/
+		defaults/
+			main.yml
+		files/
+		handlers/
+			main.yml
+		meta/
+			main.yml
+		tasks/
+			main.yml
+		templates/
+		tests/
+			inventory
+			test.yaml
+		vars/
+			main.yml
+		README.md
 ```
 
 

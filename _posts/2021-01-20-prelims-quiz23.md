@@ -19,6 +19,100 @@ permalink: /prelim/quiz23
 <p> <a href="https://github.com/jesmatienzo-tip/sysad2-12021/tree/quiz23"> Quiz 2.3 - Ansible Roles </a> </p>
 
 ```
+README.md
+ansible.cfg
+files/
+	index.html
+	matienzo_domain.conf
+id_rsa
+inventory
+playbook_ubuntu_roles.yaml
+roles/
+	1apache2_installation/
+			defaults/
+				main.yml
+			files/
+			handlers/
+				main.yml
+			meta/
+				main.yml
+			tasks/
+				main.yml
+			templates/
+			tests/
+				inventory
+				test.yml
+			vars/
+				main.yml
+			README.md
+	2mysql_installation/
+			defaults/
+				main.yml
+			files/
+			handlers/
+				main.yml
+			meta/
+				main.yml
+			tasks/
+				main.yml
+			templates/
+			tests/
+				inventory
+				test.yml
+			vars/
+				main.yml
+			README.md
+	3php_installation/
+			defaults/
+				main.yml
+			files/
+			handlers/
+				main.yml
+			meta/
+				main.yml
+			tasks/
+				main.yml
+			templates/
+			tests/
+				inventory
+				test.yml
+			vars/
+				main.yml
+			README.md
+	4virtualhost_creation/
+			defaults/
+				main.yml
+			files/
+			handlers/
+				main.yml
+			meta/
+				main.yml
+			tasks/
+				main.yml
+			templates/
+			tests/
+				inventory
+				test.yml
+			vars/
+				main.yml
+			README.md
+	5testing_php/
+			defaults/
+				main.yml
+			files/
+			handlers/
+				main.yml
+			meta/
+				main.yml
+			tasks/
+				main.yml
+			templates/
+			tests/
+				inventory
+				test.yml
+			vars/
+				main.yml
+			README.md
 
 ```
 

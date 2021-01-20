@@ -19,7 +19,14 @@ permalink: /prelim/quiz22
 <p> <a href="https://github.com/jesmatienzo-tip/sysad2-12021/tree/quiz22"> Quiz 2.2 - Ansible Playbooks </a> </p>
 
 ```
-
+README.md
+ansible.cfg
+files/
+	index.html
+	matienzo_domain.conf
+id_rsa
+inventory
+playbook_ubuntu.yaml
 ```
 
 
