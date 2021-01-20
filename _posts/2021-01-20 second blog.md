@@ -2,7 +2,6 @@
 layout: post
 categories: welcome
 title: Quiz 1
-permalink: /prelim/quiz1
 ---
 # Welcome!
 
