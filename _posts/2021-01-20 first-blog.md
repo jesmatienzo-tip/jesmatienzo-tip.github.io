@@ -2,7 +2,6 @@
 layout: post
 categories: welcome
 title: Welcome to my Portal
-permalink: /welcome/
 ---
 # Welcome!
 
