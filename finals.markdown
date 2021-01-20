@@ -4,5 +4,9 @@ title: Finals
 permalink: /finals/
 ---
 
-# Finals Directory
+## Quizzes
+[Quiz 5.1 - Containerization]()
+
+## Major Exam
+[Final Exam]()
 

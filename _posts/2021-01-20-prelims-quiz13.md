@@ -2,7 +2,7 @@
 layout: post
 categories: quiz prelim
 title: Quiz 1.3 - Prelims
-permalink: /prelim/quiz1
+permalink: /prelim/quiz13
 ---
 # Prelims - Quiz 1.3
 
