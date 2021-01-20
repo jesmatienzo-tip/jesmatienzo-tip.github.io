@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: AJ is bored!
-email: blog@ajohnsc.com
+title: Sammi's Portfolio - Systems Administration II
+email: qjestmatienzo@tip.edu.ph
 description: >
-  Join AJ in his adventure to the exciting world of innovative technologies
+  Let's go and enjoy viewing!
 baseurl: "" 
-url: "https://ajohnsc.com" 
-github_username:  ajohnsc
+url: "https://jesmatienzo-tip.github.io" 
+github_username:  jesmatienzo-tip
 postCount: 5
 
 # Build settings
@@ -34,7 +34,7 @@ markdown_ext:  markdown,mkdown,mkdn,mkd,md
 permalink   : /:year/:title/
 source: ./
 destination: ./_site
-google_analytics: UA-166260994-1
+google_analytics: 
 plugins:
   - jekyll-feed
 
