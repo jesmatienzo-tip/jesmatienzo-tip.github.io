@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: welcome
+categories: Prelim Quiz
 title: Quiz 1
 permalink: /prelim/quiz1
 ---
