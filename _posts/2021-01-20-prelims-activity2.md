@@ -35,7 +35,20 @@ permalink: /prelim/activity2
 <p> <a href="https://github.com/jesmatienzo-tip/sysad2-12021/tree/activity2"> Activity 2 - Install and configure your repository in remote Git in GitHub </a> </p>
 
 ```
+activity 2
+.
+├── README.md
+├── jesmatienzo-tip
+│   └── activity2
+│       └── HA2.md
+├── mlaabelong
+│   └── activity2
+│       └── HA2.md
+└── qjaaferrer
+    └── activity2
+        └── HA2.md
 
+6 directories, 4 files
 ```
 
 

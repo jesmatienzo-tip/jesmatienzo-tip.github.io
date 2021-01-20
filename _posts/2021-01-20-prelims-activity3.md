@@ -42,7 +42,15 @@ permalink: /prelim/activity3
 <p> <a href="https://github.com/jesmatienzo-tip/sysad2-12021/tree/activity3"> Activity 3 - Ansible Basics </a> </p>
 
 ```
+activity 3
+.
+├── README.md
+└── jesmatienzo-tip
+    └── activity3
+        ├── ansible.cfg
+        └── inventory
 
+2 directories, 3 files
 ```
 
 

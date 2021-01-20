@@ -26,7 +26,17 @@ permalink: /prelim/activity4
 <p> <a href="https://github.com/jesmatienzo-tip/sysad2-12021/tree/activity4"> Activity 4 - Ansible Playbooks </a> </p>
 
 ```
+activity 4
+.
+├── README.md
+└── jesmatienzo-tip
+    └── activity4
+        ├── ansible.cfg
+        ├── id_rsa
+        ├── inventory
+        └── playbook.yaml
 
+2 directories, 5 files
 ```
 
 

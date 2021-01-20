@@ -27,7 +27,197 @@ permalink: /midterm/activity6
 <p> <a href="https://github.com/jesmatienzo-tip/sysad2-12021/tree/activity6"> Activity 6 - Implement Ansible roles in playbooks </a> </p>
 
 ```
+activity 6
+.
+├── README.md
+└── jesmatienzo-tip
+    └── activity6
+        ├── ansible.cfg
+        ├── inventory
+        ├── playbook_activity6.yaml
+        └── roles
+            ├── bind9_centos_install
+            │   ├── README.md
+            │   ├── defaults
+            │   │   └── main.yml
+            │   ├── handlers
+            │   │   └── main.yml
+            │   ├── meta
+            │   │   └── main.yml
+            │   ├── tasks
+            │   │   └── main.yml
+            │   ├── tests
+            │   │   ├── inventory
+            │   │   └── test.yml
+            │   └── vars
+            │       └── main.yml
+            ├── bind9_ubuntu_install
+            │   ├── README.md
+            │   ├── defaults
+            │   │   └── main.yml
+            │   ├── handlers
+            │   │   └── main.yml
+            │   ├── meta
+            │   │   └── main.yml
+            │   ├── tasks
+            │   │   └── main.yml
+            │   ├── tests
+            │   │   ├── inventory
+            │   │   └── test.yml
+            │   └── vars
+            │       └── main.yml
+            ├── dhcpd_centos_install
+            │   ├── README.md
+            │   ├── defaults
+            │   │   └── main.yml
+            │   ├── handlers
+            │   │   └── main.yml
+            │   ├── meta
+            │   │   └── main.yml
+            │   ├── tasks
+            │   │   └── main.yml
+            │   ├── tests
+            │   │   ├── inventory
+            │   │   └── test.yml
+            │   └── vars
+            │       └── main.yml
+            ├── dhcpd_ubuntu_install
+            │   ├── README.md
+            │   ├── defaults
+            │   │   └── main.yml
+            │   ├── handlers
+            │   │   └── main.yml
+            │   ├── meta
+            │   │   └── main.yml
+            │   ├── tasks
+            │   │   └── main.yml
+            │   ├── tests
+            │   │   ├── inventory
+            │   │   └── test.yml
+            │   └── vars
+            │       └── main.yml
+            ├── httpd_centos_install
+            │   ├── README.md
+            │   ├── defaults
+            │   │   └── main.yml
+            │   ├── handlers
+            │   │   └── main.yml
+            │   ├── meta
+            │   │   └── main.yml
+            │   ├── tasks
+            │   │   └── main.yml
+            │   ├── tests
+            │   │   ├── inventory
+            │   │   └── test.yml
+            │   └── vars
+            │       └── main.yml
+            ├── httpd_ubuntu_install
+            │   ├── README.md
+            │   ├── defaults
+            │   │   └── main.yml
+            │   ├── handlers
+            │   │   └── main.yml
+            │   ├── meta
+            │   │   └── main.yml
+            │   ├── tasks
+            │   │   └── main.yml
+            │   ├── tests
+            │   │   ├── inventory
+            │   │   └── test.yml
+            │   └── vars
+            │       └── main.yml
+            ├── mariadb_centos_install
+            │   ├── README.md
+            │   ├── defaults
+            │   │   └── main.yml
+            │   ├── handlers
+            │   │   └── main.yml
+            │   ├── meta
+            │   │   └── main.yml
+            │   ├── tasks
+            │   │   └── main.yml
+            │   ├── tests
+            │   │   ├── inventory
+            │   │   └── test.yml
+            │   └── vars
+            │       └── main.yml
+            ├── mariadb_ubuntu_install
+            │   ├── README.md
+            │   ├── defaults
+            │   │   └── main.yml
+            │   ├── handlers
+            │   │   └── main.yml
+            │   ├── meta
+            │   │   └── main.yml
+            │   ├── tasks
+            │   │   └── main.yml
+            │   ├── tests
+            │   │   ├── inventory
+            │   │   └── test.yml
+            │   └── vars
+            │       └── main.yml
+            ├── samba_centos_install
+            │   ├── README.md
+            │   ├── defaults
+            │   │   └── main.yml
+            │   ├── handlers
+            │   │   └── main.yml
+            │   ├── meta
+            │   │   └── main.yml
+            │   ├── tasks
+            │   │   └── main.yml
+            │   ├── tests
+            │   │   ├── inventory
+            │   │   └── test.yml
+            │   └── vars
+            │       └── main.yml
+            ├── samba_ubuntu_install
+            │   ├── README.md
+            │   ├── defaults
+            │   │   └── main.yml
+            │   ├── handlers
+            │   │   └── main.yml
+            │   ├── meta
+            │   │   └── main.yml
+            │   ├── tasks
+            │   │   └── main.yml
+            │   ├── tests
+            │   │   ├── inventory
+            │   │   └── test.yml
+            │   └── vars
+            │       └── main.yml
+            ├── vsftpd_centos_install
+            │   ├── README.md
+            │   ├── defaults
+            │   │   └── main.yml
+            │   ├── handlers
+            │   │   └── main.yml
+            │   ├── meta
+            │   │   └── main.yml
+            │   ├── tasks
+            │   │   └── main.yml
+            │   ├── tests
+            │   │   ├── inventory
+            │   │   └── test.yml
+            │   └── vars
+            │       └── main.yml
+            └── vsftpd_ubuntu_install
+                ├── README.md
+                ├── defaults
+                │   └── main.yml
+                ├── handlers
+                │   └── main.yml
+                ├── meta
+                │   └── main.yml
+                ├── tasks
+                │   └── main.yml
+                ├── tests
+                │   ├── inventory
+                │   └── test.yml
+                └── vars
+                    └── main.yml
 
+87 directories, 100 files
 ```
 
 

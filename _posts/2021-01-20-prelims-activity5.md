@@ -25,7 +25,48 @@ permalink: /prelim/activity5
 <p> <a href="https://github.com/jesmatienzo-tip/sysad2-12021/tree/activity5"> Activity 5 - Implement Ansible roles in playbooks </a> </p>
 
 ```
+activity 5
+.
+├── README.md
+└── jesmatienzo-tip
+    └── activity5
+        ├── ansible.cfg
+        ├── ansible_roles_playbook.yaml
+        ├── id_rsa
+        ├── inventory
+        └── roles
+            ├── CentosInstallation
+            │   ├── README.md
+            │   ├── defaults
+            │   │   └── main.yml
+            │   ├── handlers
+            │   │   └── main.yml
+            │   ├── meta
+            │   │   └── main.yml
+            │   ├── tasks
+            │   │   └── main.yml
+            │   ├── tests
+            │   │   ├── inventory
+            │   │   └── test.yml
+            │   └── vars
+            │       └── main.yml
+            └── UbuntuInstallation
+                ├── README.md
+                ├── defaults
+                │   └── main.yml
+                ├── handlers
+                │   └── main.yml
+                ├── meta
+                │   └── main.yml
+                ├── tasks
+                │   └── main.yml
+                ├── tests
+                │   ├── inventory
+                │   └── test.yml
+                └── vars
+                    └── main.yml
 
+17 directories, 21 files
 ```
 
 
